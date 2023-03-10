@@ -9,25 +9,25 @@ img {
 }
 
 header {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 nav {
-    display: flex;
-    background-color: #ececec;
-    /* Add a light gray background color */
+  display: flex;
+  background-color: #ececec;
+  /* Add a light gray background color */
 }
 
 ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 li {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
 body {
