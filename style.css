@@ -2,6 +2,10 @@ img {
   /* float: right; */
   margin-left: 10px;
 }
+
+body {
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 .mediumHeading {
@@ -30,8 +34,6 @@ li {
   margin: 0 10px;
 }
 
-body {
-    background-color: #ffffff;
 /* three columns layout box */
 
 .column {
