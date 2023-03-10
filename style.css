@@ -1,11 +1,13 @@
-img{
+img {
 
     /* float: right; */
     margin-left: 10px;
 }
-.largeHeading{
+
+.largeHeading {
     text-align: center;
 }
+
 header {
     display: flex;
     justify-content: center;
@@ -32,3 +34,4 @@ body {
     background-color: #ffffff;
 
 }
+
