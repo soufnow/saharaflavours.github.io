@@ -46,6 +46,23 @@ li {
   }
 }
 
+/* Button coloring */
+
+.seeRecipe {
+  background: #006233;
+  background-image: -webkit-linear-gradient(top, #006233, #006233);
+  background-image: -moz-linear-gradient(top, #006233, #006233);
+  background-image: -ms-linear-gradient(top, #006233, #006233);
+  background-image: -o-linear-gradient(top, #006233, #006233);
+  background-image: linear-gradient(to bottom, #006233, #006233);
+  -webkit-border-radius: 36;
+  -moz-border-radius: 36;
+  border-radius: 36px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 8px 17px 9px 16px;
+  text-decoration: none;
 }
 
 .seeRecipe:hover {
