@@ -32,6 +32,22 @@ li {
 
 body {
     background-color: #ffffff;
+/* three columns layout box */
+
+.column {
+  width: 100%;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+@media (min-width: 48em) {
+  .columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+}
 
 }
 
