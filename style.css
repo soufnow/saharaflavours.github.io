@@ -3,6 +3,9 @@ img{
     /* float: right; */
     margin-left: 10px;
 }
+.largeHeading{
+    text-align: center;
+}
 header {
     display: flex;
     justify-content: center;
