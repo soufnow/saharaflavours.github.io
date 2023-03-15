@@ -104,3 +104,49 @@ li {
 .hero-image {
   flex: 1;
 }
+/* footer */
+
+footer {
+  background-color: #f4f4f9;
+  padding: 30px;
+}
+
+footer .columns {
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+footer .column {
+  padding-bottom: 0;
+}
+
+footer .column:first-of-type {
+  text-align: left;
+}
+
+footer form div {
+  display: flex;
+}
+
+footer input[type="email"] {
+  width: 200px;
+}
+
+/* newsletter button */
+footer .newsLetterbtn {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.footer-favicons a.fa {
+  float: right;
+  padding: 6px 15px 6px 15px;
+  font-size: 25px;
+}
+
+.footer-favicons a:hover {
+  color: darkgray;
+}
+
+/* end of footer */
