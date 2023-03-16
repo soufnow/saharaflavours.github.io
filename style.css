@@ -113,6 +113,11 @@ li {
   width: 100%;
 }
 
+header img {
+  padding: 0px;
+  padding-right: 20px;
+  padding-top: 25px;
+}
 /* End of navigation */
 
 /* footer */
