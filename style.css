@@ -113,10 +113,36 @@ li {
   width: 100%;
 }
 
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
 header img {
   padding: 0px;
   padding-right: 20px;
   padding-top: 25px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #00623340;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #006233;
+  color: white;
+}
+
+.topnav .active:hover {
+  background-color: #03954f;
 }
 /* End of navigation */
 
