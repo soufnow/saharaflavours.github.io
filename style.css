@@ -113,6 +113,11 @@ li {
   width: 100%;
 }
 
+
+.search {
+  display: flex;
+  align-items: center;
+}
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
