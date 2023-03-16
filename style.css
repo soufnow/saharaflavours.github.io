@@ -157,3 +157,21 @@ footer .newsLetterbtn {
   flex-direction: column;
   justify-content: space-between;
 }
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+main {
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+.hero-container,
+main {
+  margin: 0 auto;
+  max-width: 1200px;
+}
