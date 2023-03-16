@@ -104,6 +104,17 @@ li {
 .hero-image {
   flex: 1;
 }
+
+/* Navigation */
+
+.topnav {
+  background-color: #f4f4f9;
+  height: 70px;
+  width: 100%;
+}
+
+/* End of navigation */
+
 /* footer */
 
 footer {
