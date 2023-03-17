@@ -17,6 +17,10 @@
 
 /* Button coloring */
 
+button {
+  border: none;
+}
+
 .seeRecipe {
   background: #006233;
   background-image: -webkit-linear-gradient(top, #006233, #006233);
