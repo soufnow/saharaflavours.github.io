@@ -237,3 +237,7 @@ main,
   margin: 0 auto;
   max-width: 1200px;
 }
+
+.mediumHeading {
+  padding: 10px 50px;
+}
