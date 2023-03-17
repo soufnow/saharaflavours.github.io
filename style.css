@@ -196,6 +196,44 @@ footer .newsLetterbtn {
 
 /* end of footer */
 
+/* contact form */
+
+.contactForm input[type="text"],
+.contactForm select,
+.contactForm textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 20px;
+}
+
+.contactForm .container {
+  border-radius: 5px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* end of contact form */
+
+/* contact us */
+
+.enquiries {
+  padding: 50px;
+  padding-top: 25px;
+}
+
+.enquiries p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
 #page-container {
   display: flex;
   min-height: 100vh;
