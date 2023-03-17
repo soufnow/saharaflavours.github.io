@@ -168,7 +168,8 @@ header img {
 
 footer {
   background-color: #f4f4f9;
-  padding: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 footer .columns {
@@ -191,6 +192,13 @@ footer form div {
 
 footer input[type="email"] {
   width: 200px;
+}
+
+/* email form */
+footer .form-control {
+  padding: 6px 27px 6px 27px;
+  margin-right: -4px;
+  padding-bottom: 6px;
 }
 
 /* newsletter button */
