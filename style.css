@@ -123,6 +123,7 @@ header img {
   padding: 0px;
   padding-right: 20px;
   padding-top: 25px;
+  width: 150px;
 }
 
 /* Change the color of links on hover */
@@ -140,6 +141,67 @@ header img {
 .topnav .active:hover {
   background-color: #03954f;
 }
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .navcontainer .search {
+    display: none;
+  }
+
+  header img {
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 975px) {
+  /* hide all links but the home  */
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
+  .topnav .logo-links-container {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .topnav.responsive {
+    position: relative;
+  }
+
+  .topnav.responsive a.icon {
+    /* position hamburger to the right  */
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a {
+    /* display links on top of each other  */
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .topnav.responsive .nav-items {
+    background: #f4f4f9;
+    margin-top: 220px;
+    margin-right: 30px;
+  }
+
+  .topnav.responsive .search {
+    /* hide search when hamburger is clicked */
+    display: none;
+  }
+}
+
 /* End of navigation */
 
 /* footer */
