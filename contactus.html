@@ -14,8 +14,10 @@
     <!-- Load css resets -->
     <link
       rel="stylesheet"
-      href="https://meyerweb.com/eric/tools/css/reset/reset.css "
+      type="text/css"
+      href="styles/normalize/normalize.css"
     />
+    <!-- Load custom styling  -->
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
@@ -80,7 +82,7 @@
             <div class="contactForm flexOne">
               <div class="container">
                 <h1>Contact us</h1>
-                <form action="action_page.php">
+                <form method="post" action="contactform.php">
                   <label for="fname"></label>
                   <input
                     type="text"
@@ -95,6 +97,12 @@
                     id="lname"
                     name="lastname"
                     placeholder="Your last name.."
+                  />
+                  <input
+                    type="text"
+                    id="lname"
+                    name="Write your email"
+                    placeholder="Your email..."
                   />
 
                   <label for="country">Where did you hear about us</label>
@@ -127,9 +135,9 @@
         <div class="columns">
           <ul class="column">
             <li><a href="#">Sitemap</a></li>
-            <li><a href="#">Terms and Conditions</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="termsandconditions.html">Terms and Conditions</a></li>
+            <li><a href="privacypolicy.html">Privacy Policy</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
           </ul>
 
           <form class="column">
@@ -143,10 +151,22 @@
           </form>
           <!-- icons -->
           <div class="column footer-favicons">
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-pinterest"></a>
-            <a href="#" class="fa fa-instagram"></a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100090907187759"
+              class="fa fa-facebook"
+            ></a>
+            <a
+              href="https://twitter.com/saharaflavours"
+              class="fa fa-twitter"
+            ></a>
+            <a
+              href="https://www.pinterest.co.uk/saharaflavours/"
+              class="fa fa-pinterest"
+            ></a>
+            <a
+              href="https://www.instagram.com/saharaflavours/"
+              class="fa fa-instagram"
+            ></a>
           </div>
         </div>
       </footer>
