@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sahara Flavours</title>
+    <link rel="icon" type="x-icon" href="../favicon.ico" />
+    <script src="script.js"></script>
+    <!-- Load an icon library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Load css resets -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../styles/normalize/normalize.css"
+    />
+    <!-- Load custom styling  -->
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+  </head>
+
+  <body>
+    <div id="page-container">
+      <div id="content">
+        <header>
+          <nav class="topnav" id="myTopnav">
+            <div class="navcontainer">
+              <div class="logo-links-container">
+                <img
+                  src="../images/sahara_flavours.png"
+                  alt="Sahara Flavours logo"
+                  width="150"
+                />
+                <div class="nav-items">
+                  <a href="/" class="active">Home</a>
+
+                  <a href="../meat.html">Meat</a>
+                  <a href="../pastry.html">Pastry</a>
+                  <a href="../seafood.html">Seafood</a>
+                  <a href="../sidedishes.html">Side Dishes</a>
+                  <a href="../contactus.html">Contact Us</a>
+
+                  <a
+                    href="javascript:void(0);"
+                    class="icon"
+                    onclick="myFunction()"
+                  >
+                    <i class="fa fa-bars"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="search">
+                <input type="text" placeholder="Search..." />
+                <button><i class="fa fa-search"></i></button>
+              </div>
+            </div>
+          </nav>
+        </header>
+
+        <main>
+          <h1>Moroccan Spiced Carrots</h1>
+          <img
+            class="img_sizing"
+            src="../images/carrots.png"
+            alt=" Moroccan Spiced Carrots"
+          />
+
+          <h1>Ingredients</h1>
+          <hr />
+          <ul>
+            <li>8 chunky carrots</li>
+            <li>2 teaspoon Moroccan spice blend (get my recipe)</li>
+            <li>1 tablespoon olive oil</li>
+            <li>1 tablespoon pine nuts</li>
+            <li>1 tablespoon chopped fresh mint</li>
+          </ul>
+          <h1>Instructions</h1>
+          <hr />
+          <ol>
+            <li>Pre-heat the oven to 220°C/200°C fan forced/Gas Mark 7.</li>
+            <li>Peel and then top and tail the carrots.</li>
+            <li>
+              Cut each carrot in half lengthways and then in half (lengthways)
+              again.
+            </li>
+            <li>
+              Bring a pan of water up to the boil, add ½ teaspoon of salt and
+              cook the carrots for 8 minutes until just cooked through.
+            </li>
+            <li>Drain the carrots and return to the pan.</li>
+            <li>Pour over the olive oil and add the spice blend.</li>
+            <li>Gently toss the pan to coat the carrots.</li>
+            <li>
+              Line a baking tray with cooking paper. (I always use 'Glad Bake &
+              Cooking Paper)
+            </li>
+            <li>
+              Lay the carrots out on the baking sheet and roast for 15 minutes
+              until crisp.
+            </li>
+            <li>
+              Arrange the carrots onto a serving dish and garnish with the pine
+              nuts and chopped mint.
+            </li>
+          </ol>
+        </main>
+      </div>
+
+      <!-- google translate -->
+      <div id="google_translate_element"></div>
+      <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+      <script>
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement(
+            { pageLanguage: "en" },
+            "google_translate_element"
+          );
+        }
+      </script>
+      <!-- end of google tranlate -->
+
+      <!-- begining of the footer -->
+      <footer>
+        <div class="columns">
+          <ul class="column">
+            <li><a href="#">Sitemap</a></li>
+            <li>
+              <a href="../termsandconditions.html">Terms and Conditions</a>
+            </li>
+            <li><a href="../privacypolicy.html">Privacy Policy</a></li>
+            <li><a href="../contactus.html">Contact Us</a></li>
+          </ul>
+
+          <form class="column">
+            <div>
+              <input type="email" class="form-control" placeholder="Email" />
+
+              <button class="seeRecipe newsLetterbtn" type="submit">
+                Get Newsletter
+              </button>
+            </div>
+          </form>
+          <!-- icons -->
+          <div class="column footer-favicons">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+            <a href="#" class="fa fa-instagram"></a>
+          </div>
+        </div>
+      </footer>
+
+      <!-- end of the footer -->
+    </div>
+  </body>
+</html>
