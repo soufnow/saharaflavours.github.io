@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sahara Flavours</title>
+    <link rel="icon" type="x-icon" href="../favicon.ico" />
+    <script src="script.js"></script>
+    <!-- Load an icon library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Load css resets -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../styles/normalize/normalize.css"
+    />
+    <!-- Load custom styling  -->
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+  </head>
+
+  <body>
+    <div id="page-container">
+      <div id="content">
+        <header>
+          <nav class="topnav" id="myTopnav">
+            <div class="navcontainer">
+              <div class="logo-links-container">
+                <img
+                  src="../images/sahara_flavours.png"
+                  alt="Sahara Flavours logo"
+                  width="150"
+                />
+                <div class="nav-items">
+                  <a href="/" class="active">Home</a>
+
+                  <a href="../meat.html">Meat</a>
+                  <a href="../pastry.html">Pastry</a>
+                  <a href="../seafood.html">Seafood</a>
+                  <a href="../sidedishes.html">Side Dishes</a>
+                  <a href="../contactus.html">Contact Us</a>
+
+                  <a
+                    href="javascript:void(0);"
+                    class="icon"
+                    onclick="myFunction()"
+                  >
+                    <i class="fa fa-bars"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="search">
+                <input type="text" placeholder="Search..." />
+                <button><i class="fa fa-search"></i></button>
+              </div>
+            </div>
+          </nav>
+        </header>
+
+        <main>
+          <h1>Moroccan Tangia</h1>
+          <img
+            class="img_sizing"
+            src="../images/tangia.png"
+            alt=" Moroccan Tangia  "
+          />
+          <h1>Ingredients</h1>
+          <ul>
+            <li>4 pounds lamb, or beef, cut into 4- to 5-inch pieces</li>
+            <li>1 medium onion, chopped</li>
+            <li>6 to 8 cloves garlic, chopped</li>
+            <li>1 large handful fresh parsley, or cilantro, chopped</li>
+            <li>2 teaspoons ras el hanout</li>
+            <li>2 teaspoons cumin</li>
+            <li>1 1/4 teaspoons salt</li>
+            <li>1 teaspoon saffron threads, heated gently and crumbled</li>
+            <li>1 teaspoon turmeric</li>
+            <li>1 teaspoon ginger</li>
+            <li>1/2 teaspoon freshly ground black pepper</li>
+            <li>1/2 teaspoon freshly ground white pepper</li>
+            <li>1/2 preserved lemon rind, finely chopped</li>
+            <li>1/2 preserved lemon, cut into wedges</li>
+            <li>1/4 cup olive oil</li>
+            <li>3 to 4 tablespoons water</li>
+          </ul>
+          <hr />
+          <h1>Steps to Make It</h1>
+          <ol>
+            <li>Gather the ingredients.</li>
+            <li>
+              Mix the meat with the onion, garlic, parsley or cilantro, spices,
+              and chopped preserved lemon rind. Transfer the seasoned meat
+              mixture to the tangia (or another deep ovenproof cooking dish).
+              Add the olive oil, or smen (salted fermented butter-if using),
+              preserved lemon wedges and water.
+            </li>
+            <hr />
+            <li>
+              Cover the top of the tangia with a circle of parchment paper (it
+              should be cut a little larger than the diameter of the opening).
+              Cover the parchment paper with a layer of aluminum foil, wrapping
+              and sealing the foil snugly to the tangia. Pierce the foil and
+              parchment paper in 2 or 3 places with a fork.
+            </li>
+            <hr />
+            <li>
+              Place the tangia in a cold oven, set the thermostat to 275 F/140
+              C, and turn the oven on. Leave the tangia for 5 to 6 hours, at
+              which time you can check to see if the meat is adequately cooked.
+              It should fall off the bone and be buttery-tender.
+            </li>
+            <hr />
+            <li>
+              Serve the tangia on a large communal platter with Moroccan bread
+              (khobz) for scooping up the meat and sauce.
+            </li>
+            <li>Serve and enjoy!</li>
+          </ol>
+        </main>
+      </div>
+
+      <!-- google translate -->
+      <div id="google_translate_element"></div>
+      <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+      <script>
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement(
+            { pageLanguage: "en" },
+            "google_translate_element"
+          );
+        }
+      </script>
+      <!-- end of google tranlate -->
+
+      <!-- begining of the footer -->
+      <footer>
+        <div class="columns">
+          <ul class="column">
+            <li><a href="#">Sitemap</a></li>
+            <li>
+              <a href="../termsandconditions.html">Terms and Conditions</a>
+            </li>
+            <li><a href="../privacypolicy.html">Privacy Policy</a></li>
+            <li><a href="../contactus.html">Contact Us</a></li>
+          </ul>
+
+          <form class="column">
+            <div>
+              <input type="email" class="form-control" placeholder="Email" />
+
+              <button class="seeRecipe newsLetterbtn" type="submit">
+                Get Newsletter
+              </button>
+            </div>
+          </form>
+          <!-- icons -->
+          <div class="column footer-favicons">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+            <a href="#" class="fa fa-instagram"></a>
+          </div>
+        </div>
+      </footer>
+
+      <!-- end of the footer -->
+    </div>
+  </body>
+</html>

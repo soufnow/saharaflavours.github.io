@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sahara Flavours</title>
+    <link rel="icon" type="x-icon" href="../favicon.ico" />
+    <script src="script.js"></script>
+    <!-- Load an icon library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Load css resets -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../styles/normalize/normalize.css"
+    />
+    <!-- Load custom styling  -->
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+  </head>
+
+  <body>
+    <div id="page-container">
+      <div id="content">
+        <header>
+          <nav class="topnav" id="myTopnav">
+            <div class="navcontainer">
+              <div class="logo-links-container">
+                <img
+                  src="../images/sahara_flavours.png"
+                  alt="Sahara Flavours logo"
+                  width="150"
+                />
+                <div class="nav-items">
+                  <a href="/" class="active">Home</a>
+
+                  <a href="../meat.html">Meat</a>
+                  <a href="../pastry.html">Pastry</a>
+                  <a href="../seafood.html">Seafood</a>
+                  <a href="../sidedishes.html">Side Dishes</a>
+                  <a href="../contactus.html">Contact Us</a>
+
+                  <a
+                    href="javascript:void(0);"
+                    class="icon"
+                    onclick="myFunction()"
+                  >
+                    <i class="fa fa-bars"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="search">
+                <input type="text" placeholder="Search..." />
+                <button><i class="fa fa-search"></i></button>
+              </div>
+            </div>
+          </nav>
+        </header>
+
+        <main>
+          <h1>Minced meat kefta</h1>
+          <img
+            class="img_sizing"
+            src="../images/kefta.png"
+            alt=" Minced meat kefta  "
+          />
+          <h2>Ingredients</h2>
+          <hr />
+          <p>Serves 4</p>
+          <ul>
+            <li>450g minced beef and/or lamb (15% to 20% fat)</li>
+            <li>1 medium onion, grated</li>
+            <li>2 tablespoons chopped fresh parsley</li>
+            <li>2 tablespoons chopped fresh coriander</li>
+            <li>Leaves of 4 mint sprigs, chopped</li>
+            <li>2 teaspoons paprika</li>
+            <li>1 teaspoon ground cumin</li>
+            <li>1 teaspoon salt</li>
+            <li>1/2 teaspoon ground black pepper</li>
+            <li>Pinch cayenne pepper</li>
+          </ul>
+          <hr />
+
+          <h2>METHOD</h2>
+          <ol>
+            <li>
+              In a large bowl, combine all the ingredients together. Use your
+              hands or a large spoon to incorporate the meat, the onion, the
+              herbs and the spices together.
+            </li>
+            <li>Shape and cook as desired.</li>
+          </ol>
+        </main>
+      </div>
+
+      <!-- google translate -->
+      <div id="google_translate_element"></div>
+      <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+      <script>
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement(
+            { pageLanguage: "en" },
+            "google_translate_element"
+          );
+        }
+      </script>
+      <!-- end of google tranlate -->
+
+      <!-- begining of the footer -->
+      <footer>
+        <div class="columns">
+          <ul class="column">
+            <li><a href="#">Sitemap</a></li>
+            <li>
+              <a href="../termsandconditions.html">Terms and Conditions</a>
+            </li>
+            <li><a href="../privacypolicy.html">Privacy Policy</a></li>
+            <li><a href="../contactus.html">Contact Us</a></li>
+          </ul>
+
+          <form class="column">
+            <div>
+              <input type="email" class="form-control" placeholder="Email" />
+
+              <button class="seeRecipe newsLetterbtn" type="submit">
+                Get Newsletter
+              </button>
+            </div>
+          </form>
+          <!-- icons -->
+          <div class="column footer-favicons">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+            <a href="#" class="fa fa-instagram"></a>
+          </div>
+        </div>
+      </footer>
+
+      <!-- end of the footer -->
+    </div>
+  </body>
+</html>
