@@ -6,4 +6,13 @@ function myFunction() {
   } else {
     x.className = "topnav";
   }
-}
+
+ 
+// google translate fucntion
+
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement(
+      { pageLanguage: 'en' },
+      'google_translate_element'
+    );
+  }

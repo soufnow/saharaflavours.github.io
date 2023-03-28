@@ -326,3 +326,11 @@ main,
 .mediumHeading {
   padding: 10px 50px;
 }
+
+/* google tranlate */
+#google_translate_element {
+  position: absolute;
+  right: 20px;
+  bottom: 13%;
+}
+
