@@ -8,7 +8,7 @@ function myFunction() {
   }
 
  
-// google translate fucntion
+// google translate function
 
   function googleTranslateElementInit() {
     new google.translate.TranslateElement(
