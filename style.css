@@ -334,3 +334,12 @@ main,
   bottom: 13%;
 }
 
+.img_sizing {
+  border-style: none;
+  max-width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
