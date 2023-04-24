@@ -6,6 +6,7 @@ function myFunction() {
   } else {
     x.className = "topnav";
   }
+}
 
  
 // google translate function
