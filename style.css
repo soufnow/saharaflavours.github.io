@@ -343,3 +343,21 @@ main,
   width: 50%;
 }
 
+
+/* rating stars */
+
+.star {
+  font-size: 2em;
+  color: gray;
+  background-color: unset;
+  border: black;
+}
+
+.star_rating {
+  user-select: none;
+}
+
+.star.rated {
+  font-size: 2em;
+  color: #ff9800;
+}
