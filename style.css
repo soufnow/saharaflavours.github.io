@@ -86,6 +86,7 @@ input.seeRecipe {
   width: 100%;
 }
 
+/* https://www.w3schools.com/css/css3_flexbox_container.asp */
 .navcontainer {
   display: flex;
   align-items: center;
@@ -104,6 +105,7 @@ input.seeRecipe {
   align-items: center;
 }
 /* Style the links inside the navigation bar */
+
 .topnav a {
   float: left;
   display: block;
